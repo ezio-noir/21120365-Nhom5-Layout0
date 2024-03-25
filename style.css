@@ -15,6 +15,7 @@
 }
 
 .background-text-left {
+    color: #aaa;
     transform-origin: top left;
     transform: rotate(-90deg) translate(-50%, 0);
     position: fixed;
@@ -23,6 +24,7 @@
 }
 
 .background-text-right {
+    color: #aaa;
     transform-origin: bottom right;
     transform: rotate(-90deg) translate(50%, 0);
     position: fixed;
