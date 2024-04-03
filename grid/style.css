@@ -1,0 +1,40 @@
+body {
+    background-color: #eee;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 20px;
+    gap: 5px;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: #ccc;
+    padding: 5px;
+    align-items: center;
+}
+
+.span-whole-row {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.logo {
+    text-align: left;
+}
+
+.header {
+    height: 10vh;
+}
+
+.sidebar {
+    height: 50vh;
+    margin: 10px 10px 10px 0;
+}
+
+.body-area {
+    height: 50vh;
+    margin: 10px 0;
+}

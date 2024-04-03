@@ -1,0 +1,55 @@
+
+.header {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > div {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: left !important;
+}
+
+.banner {
+    height: 50px;
+}
+
+.main {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 70vh;
+}
+
+.main > div {
+    padding: 10px 0;
+}
+
+.box {
+    background-color: #ccc;
+}
+
+.sidebar {
+    flex: 30%;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.main-area {
+    flex: 70%;
+}
+
+.footer {
+    margin: 10px;
+    padding: 10px;;
+    text-align: center;
+    align-items: center;
+
+}
